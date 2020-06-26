@@ -1,6 +1,6 @@
 module.exports = async function (context, req) {
     context.res = {
         // status: 200, /* Defaults to 200 */
-        body: "API time"
+        body: JSON.stringify("API time")
     };
 }
